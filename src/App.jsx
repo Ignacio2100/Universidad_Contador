@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 import UMG from './assets/UMG.png';
 import USAC from './assets/USAC.png';
-import Tarjeta from './components/tarjeta';
 import LANDIVAR from './assets/LANDIVAR.png';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Contador } from './components/Contador';
+import Tarjeta from "./components/tarjeta.jsx";
 
 function App() {
   const [isContadorVisible, setIsContadorVisible] = useState(false);
