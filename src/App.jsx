@@ -5,7 +5,7 @@ import USAC from './assets/USAC.png';
 import LANDIVAR from './assets/LANDIVAR.png';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import { Contador } from './components/Contador';
-import Tarjeta from "./components/tarjeta.jsx";
+import  Tarjeta  from "./components/Tarjeta";
 
 function App() {
   const [isContadorVisible, setIsContadorVisible] = useState(false);
