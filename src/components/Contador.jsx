@@ -10,9 +10,7 @@ export const Contador = () => {
 
 
   const handleDecrement = () => {
-    if (contador > 0) {
-      setContador(contador - 1);
-    }
+    setContador(0)
   };
   
 
@@ -20,8 +18,8 @@ export const Contador = () => {
     <div className="Contador">
       <h3>CONTADOR:</h3>
         <h1>{contador}</h1>
-      <button onClick={handleIncrement}> + </button>
-      <button onClick={handleDecrement}> -- </button>
+      <button onClick={handleIncrement}> Añadir </button>
+      <button onClick={handleDecrement}> Resetear </button>
     </div>
   );
 };
